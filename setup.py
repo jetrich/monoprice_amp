@@ -1,12 +1,12 @@
 from setuptools import setup
 
-setup(name='nad_receiver',
-      version='0.0.5',
-      description='Library to interface with NAD receivers through RS232 and TCP',
-      url='https://github.com/joopert/nad_receiver',
-      download_url='https://github.com/joopert/nad_receiver/archive/0.0.5.tar.gz', #
-      author='joopert',
+setup(name='monoprice_amplifier',
+      version='0.0.1',
+      description='Library to interface with Monoprice/Dayton multizone amplifiers through RS232',
+      url='https://github.com/jetrich/monoprice_amplifier',
+      download_url='https://github.com/jetrich/monoprice_amplifier/archive/0.0.1.tar.gz', #
+      author='jetrich',
       license='MIT',
-      packages=['nad_receiver'],
+      packages=['monoprice_amplifier'],
       install_requires=['pyserial==3.2.1'],
       zip_safe=True) 
